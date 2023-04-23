@@ -21,7 +21,7 @@ const SearchParams = () => {
   async function requestPets() {
     // eslint-disable-next-line no-undef
     const res = await fetch(
-      `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`
+      `https://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`
     );
     const json = await res.json();
 

@@ -11,7 +11,7 @@ class Details extends Component {
   async componentDidMount() {
     // eslint-disable-next-line no-undef
     const res = await fetch(
-      `http://pets-v2.dev-apis.com/pets?id=${this.props.params.id}`
+      `https://pets-v2.dev-apis.com/pets?id=${this.props.params.id}`
     );
     const json = await res.json();
 
